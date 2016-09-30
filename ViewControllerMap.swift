@@ -59,6 +59,21 @@ class ViewControllerMap: UIViewController, UITableViewDataSource, UITableViewDel
             dict.append(["name":"Plaza de Armas","Ciudad":"Tampico"])
             dict.append(["name":"Laguna del Carpintero","Ciudad":"Tampico"])
             dict.append(["name":"Playa Miramar","Ciudad":"Madero"])
+            dict.append(["name":"Antigua Aduana Marítima","Ciudad":"Tampico"])
+            dict.append(["name":"Plaza de las Artes","Ciudad":"Tampico"])
+            dict.append(["name":"Hotel City Express","Ciudad":"Tampico"])
+            dict.append(["name":"Puente Tampico","Ciudad":"Tampico"])
+            dict.append(["name":"Escolleras","Ciudad":"Madero"])
+            dict.append(["name":"Parque Bicentenario","Ciudad":"Madero"])
+            dict.append(["name":"Tecnológico de Monterrey Campus Tampico","Ciudad":"Altamira"])
+            dict.append(["name":"Hotel Posada de Tampico","Ciudad":"Tampico"])
+            dict.append(["name":"Club Maeva de Tampico","Ciudad":"Madero"])
+            dict.append(["name":"Hotel Camino Real","Ciudad":"Tampico"])
+            dict.append(["name":"Playa de la Libertad","Ciudad":"Tampico"])
+            dict.append(["name":"Playa Tesoro","Ciudad":"Altamira"])
+            dict.append(["name":"Casa Gándara","Ciudad":"Tampico"])
+            dict.append(["name":"Espacio Cultural Metropolitano","Ciudad":"Tampico"])
+            
         }
     }
 
@@ -76,7 +91,7 @@ class ViewControllerMap: UIViewController, UITableViewDataSource, UITableViewDel
         let row = indexPath.row
         
         mapCell.mapNombre.text = dict[row]["name"]
-        mapCell.mapCiudad.text = dict[row]["ciudad"]
+        mapCell.mapCiudad.text = dict[row]["Ciudad"]
         
         return mapCell
     }
